@@ -1,0 +1,128 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{23C1CBAB-53A5-4752-AAEB-D4CBCBDA04DE}|..\\Domain\\Domain.csproj|c:\\users\\fliac\\onedrive\\escritorio\\cinematpi\\src\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23C1CBAB-53A5-4752-AAEB-D4CBCBDA04DE}|..\\Domain\\Domain.csproj|c:\\users\\fliac\\onedrive\\escritorio\\cinematpi\\src\\domain\\entities\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23C1CBAB-53A5-4752-AAEB-D4CBCBDA04DE}|..\\Domain\\Domain.csproj|c:\\users\\fliac\\onedrive\\escritorio\\cinematpi\\src\\domain\\entities\\superadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23C1CBAB-53A5-4752-AAEB-D4CBCBDA04DE}|..\\Domain\\Domain.csproj|c:\\users\\fliac\\onedrive\\escritorio\\cinematpi\\src\\domain\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23C1CBAB-53A5-4752-AAEB-D4CBCBDA04DE}|..\\Domain\\Domain.csproj|c:\\users\\fliac\\onedrive\\escritorio\\cinematpi\\src\\domain\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23C1CBAB-53A5-4752-AAEB-D4CBCBDA04DE}|..\\Domain\\Domain.csproj|c:\\users\\fliac\\onedrive\\escritorio\\cinematpi\\src\\domain\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SuperAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Domain\\Entities\\SuperAdmin.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\SuperAdmin.cs",
+              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Domain\\Entities\\SuperAdmin.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\SuperAdmin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T13:29:25.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Domain\\Entities\\Admin.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Admin.cs",
+              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Domain\\Entities\\Admin.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\Admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T13:28:42.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Domain\\Entities\\Movie.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Movie.cs",
+              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Domain\\Entities\\Movie.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\Movie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T13:27:01.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Domain\\Entities\\Ticket.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Ticket.cs",
+              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Domain\\Entities\\Ticket.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\Ticket.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T13:25:21.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Domain\\Entities\\Client.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Client.cs",
+              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Domain\\Entities\\Client.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\Client.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T13:23:42.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Domain\\Entities\\User.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAADyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T13:22:30.902Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
