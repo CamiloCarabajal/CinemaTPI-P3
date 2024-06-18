@@ -9,9 +9,10 @@ namespace Domain.Entities
     public class Ticket
     {
         public int Id { get; set; }
-        public ICollection<Movie> Movies { get; set; } // Ticket tiene una sola peli(??
-        public Movie MovieSelected { get; set; }
+        public ICollection<Movie> Movies { get; set; } // Lista de Movies para Client
+        public Movie MovieSelected { get; set; } // Relacion con Movie
         public string ClientName { get; set; }
         public Client ClientBuyer { get; set; } //Relacion con Client
+
     }
 }
