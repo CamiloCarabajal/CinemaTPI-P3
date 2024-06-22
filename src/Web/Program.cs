@@ -33,7 +33,6 @@ using (var command = connection.CreateCommand())
 
 builder.Services.AddDbContext<ApplicationDbContext>(dbContextOptions => dbContextOptions.UseSqlite(connection));
 
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
