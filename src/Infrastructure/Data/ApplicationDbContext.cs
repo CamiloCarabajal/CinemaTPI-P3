@@ -12,11 +12,11 @@ namespace Infrastructure.Data
     public class ApplicationDbContext : DbContext
     {
         private readonly bool isTestingEnvironment;
-        DbSet<User> Users { get; set; }
-        DbSet<Client> Clients { get; set; }
-        DbSet<Movie> Movies { get; set; }
-        DbSet<Ticket> Tickets { get; set; }
-        DbSet<Admin> Admins { get; set; }
+       public DbSet<User> Users { get; set; }
+       public DbSet<Client> Clients { get; set; }
+       public DbSet<Movie> Movies { get; set; }
+       public DbSet<Ticket> Tickets { get; set; }
+       public DbSet<Admin> Admins { get; set; }
 
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options, bool isTestingEnvironment = false) : base(options)
