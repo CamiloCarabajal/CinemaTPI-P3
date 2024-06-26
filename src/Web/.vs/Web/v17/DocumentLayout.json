@@ -1,21 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Web\\",
+  "WorkspaceRootPath": "C:\\Users\\berto\\OneDrive\\Desktop\\CinemaTPI-P3\\src\\Web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B2E9567-2F9F-45FF-82A6-FD9B247BF21B}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\fliac\\onedrive\\escritorio\\cinematpi\\src\\infrastructure\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C7FD817-77A9-492E-A9F0-AA5C49964E45}|Web.csproj|c:\\users\\berto\\onedrive\\desktop\\cinematpi-p3\\src\\web\\controllers\\autheticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C7FD817-77A9-492E-A9F0-AA5C49964E45}|Web.csproj|solutionrelative:controllers\\autheticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B2E9567-2F9F-45FF-82A6-FD9B247BF21B}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\fliac\\onedrive\\escritorio\\cinematpi\\src\\infrastructure\\repositories\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B2E9567-2F9F-45FF-82A6-FD9B247BF21B}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\fliac\\onedrive\\escritorio\\cinematpi\\src\\infrastructure\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23C1CBAB-53A5-4752-AAEB-D4CBCBDA04DE}|..\\Domain\\Domain.csproj|c:\\users\\fliac\\onedrive\\escritorio\\cinematpi\\src\\domain\\interfaces\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFC379C9-9471-4A14-B90F-AB8C431E7AF8}|..\\Application\\Application.csproj|c:\\users\\fliac\\onedrive\\escritorio\\cinematpi\\src\\application\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFC379C9-9471-4A14-B90F-AB8C431E7AF8}|..\\Application\\Application.csproj|c:\\users\\berto\\onedrive\\desktop\\cinematpi-p3\\src\\application\\models\\authenticationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,28 +17,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BaseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Infrastructure\\Repositories\\BaseRepository.cs",
-              "RelativeDocumentMoniker": "..\\Infrastructure\\Repositories\\BaseRepository.cs",
-              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Infrastructure\\Repositories\\BaseRepository.cs",
-              "RelativeToolTip": "..\\Infrastructure\\Repositories\\BaseRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T22:03:03.301Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
             },
             {
               "$type": "Bookmark",
@@ -54,54 +29,28 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AutheticationController.cs",
+              "DocumentMoniker": "C:\\Users\\berto\\OneDrive\\Desktop\\CinemaTPI-P3\\src\\Web\\Controllers\\AutheticationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AutheticationController.cs",
+              "ToolTip": "C:\\Users\\berto\\OneDrive\\Desktop\\CinemaTPI-P3\\src\\Web\\Controllers\\AutheticationController.cs",
+              "RelativeToolTip": "Controllers\\AutheticationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T19:56:38.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EfRepository.cs",
-              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Infrastructure\\Repositories\\EfRepository.cs",
-              "RelativeDocumentMoniker": "..\\Infrastructure\\Repositories\\EfRepository.cs",
-              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Infrastructure\\Repositories\\EfRepository.cs",
-              "RelativeToolTip": "..\\Infrastructure\\Repositories\\EfRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAhAAAA",
+              "Title": "AuthenticationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\berto\\OneDrive\\Desktop\\CinemaTPI-P3\\src\\Application\\Models\\AuthenticationRequest.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Models\\AuthenticationRequest.cs",
+              "ToolTip": "C:\\Users\\berto\\OneDrive\\Desktop\\CinemaTPI-P3\\src\\Application\\Models\\AuthenticationRequest.cs",
+              "RelativeToolTip": "..\\Application\\Models\\AuthenticationRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T21:45:03.477Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IClientRepository.cs",
-              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Domain\\Interfaces\\IClientRepository.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Interfaces\\IClientRepository.cs",
-              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Domain\\Interfaces\\IClientRepository.cs",
-              "RelativeToolTip": "..\\Domain\\Interfaces\\IClientRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBAAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T19:34:19.452Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ClientRepository.cs",
-              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Infrastructure\\Repositories\\ClientRepository.cs",
-              "RelativeDocumentMoniker": "..\\Infrastructure\\Repositories\\ClientRepository.cs",
-              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Infrastructure\\Repositories\\ClientRepository.cs",
-              "RelativeToolTip": "..\\Infrastructure\\Repositories\\ClientRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T19:25:15.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ClientService.cs",
-              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Application\\Services\\ClientService.cs",
-              "RelativeDocumentMoniker": "..\\Application\\Services\\ClientService.cs",
-              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Application\\Services\\ClientService.cs",
-              "RelativeToolTip": "..\\Application\\Services\\ClientService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T19:24:41.248Z",
+              "WhenOpened": "2024-06-26T19:55:59.067Z",
               "EditorCaption": ""
             }
           ]
