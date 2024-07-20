@@ -10,9 +10,10 @@ namespace Domain.Interfaces
     public interface IAdminRepository : IBaseRepository<Admin>
     {
         //La firma deberia ser de tipo client
-        Movie GetByName(string name);
-       // Movie AddMovie(Movie movie);
-       //void DeleteMovie(Movie movie);
-       // void UpdateMovie(Movie movie);
+       // Movie GetByName(string name);
+        Admin? GetByName(string name);
+        //Movie AddMovie(Movie movie);
+        //void DeleteMovie(Movie movie); Falta hacer
+        //void UpdateMovie(Movie movie); Falta hacer
     }
 }

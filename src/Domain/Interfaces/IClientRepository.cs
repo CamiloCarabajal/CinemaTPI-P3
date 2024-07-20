@@ -7,12 +7,13 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces
 {
-    public interface IClientRepository
+    public interface IClientRepository : IBaseRepository<Client>
     {
         //Ticket CreateTicket(Ticket ticket);
         //void UpdateTicket(Ticket ticket);
         //void DeleteTicket(Ticket ticket);
-        ICollection<Movie> GetMovies();
-        Movie? GetById(int id);
+        //ICollection<Movie> GetMovies();
+        //Movie? GetById(int id);
+        Client? GetByName(string name);
     }
 }
