@@ -2,10 +2,12 @@
 
 #nullable disable
 
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
 namespace Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialMigration : Migration
+    public partial class InitialMigrationFixed : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -19,8 +21,7 @@ namespace Infrastructure.Migrations
                     Name = table.Column<string>(type: "nvarchar(50)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(50)", nullable: false),
                     Password = table.Column<string>(type: "nvarchar(50)", nullable: false),
-                    UserType = table.Column<string>(type: "nvarchar(20)", nullable: false),
-                    Discriminator = table.Column<string>(type: "TEXT", maxLength: 8, nullable: false)
+                    UserType = table.Column<string>(type: "nvarchar(20)", maxLength: 8, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -35,9 +36,8 @@ namespace Infrastructure.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     Title = table.Column<string>(type: "TEXT", nullable: false),
                     AuthorMovie = table.Column<string>(type: "TEXT", nullable: false),
-                    AdminId = table.Column<int>(type: "INTEGER", nullable: false),
                     CreationUser = table.Column<string>(type: "TEXT", nullable: false),
-                    TicketId = table.Column<int>(type: "INTEGER", nullable: true)
+                    AdminId = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -56,24 +56,41 @@ namespace Infrastructure.Migrations
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    MovieSelectedId = table.Column<int>(type: "INTEGER", nullable: true),
+                    MovieSelectedId = table.Column<int>(type: "INTEGER", nullable: false),
                     ClientName = table.Column<string>(type: "TEXT", nullable: false),
-                    ClientBuyerId = table.Column<int>(type: "INTEGER", nullable: false)
+                    ClientId = table.Column<int>(type: "INTEGER", nullable: false),
+                    MovieId = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Tickets", x => x.Id);
                     table.ForeignKey(
+                        name: "FK_Tickets_Movies_MovieId",
+                        column: x => x.MovieId,
+                        principalTable: "Movies",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
                         name: "FK_Tickets_Movies_MovieSelectedId",
                         column: x => x.MovieSelectedId,
                         principalTable: "Movies",
-                        principalColumn: "Id");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Tickets_Users_ClientBuyerId",
-                        column: x => x.ClientBuyerId,
+                        name: "FK_Tickets_Users_ClientId",
+                        column: x => x.ClientId,
                         principalTable: "Users",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.InsertData(
+                table: "Users",
+                columns: new[] { "Id", "Email", "Name", "Password", "UserType" },
+                values: new object[,]
+                {
+                    { 1, "ivobertoni@gmail.com", "Ivo", "123", "Admin" },
+                    { 2, "camilocarabajal@gmail.com", "Camilo", "123", "Client" }
                 });
 
             migrationBuilder.CreateIndex(
@@ -82,35 +99,24 @@ namespace Infrastructure.Migrations
                 column: "AdminId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Movies_TicketId",
-                table: "Movies",
-                column: "TicketId");
+                name: "IX_Tickets_ClientId",
+                table: "Tickets",
+                column: "ClientId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Tickets_ClientBuyerId",
+                name: "IX_Tickets_MovieId",
                 table: "Tickets",
-                column: "ClientBuyerId");
+                column: "MovieId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Tickets_MovieSelectedId",
                 table: "Tickets",
                 column: "MovieSelectedId");
-
-            migrationBuilder.AddForeignKey(
-                name: "FK_Movies_Tickets_TicketId",
-                table: "Movies",
-                column: "TicketId",
-                principalTable: "Tickets",
-                principalColumn: "Id");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropForeignKey(
-                name: "FK_Movies_Tickets_TicketId",
-                table: "Movies");
-
             migrationBuilder.DropTable(
                 name: "Tickets");
 

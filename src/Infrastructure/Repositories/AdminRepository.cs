@@ -17,10 +17,13 @@ namespace Infrastructure.Repositories
         {
         }
       
-        public Movie? GetByName(string name) 
-        { 
-             return _context.Movies.FirstOrDefault(p=> p.Title == name);
-        
+        //public Movie? GetByName(string name) 
+        //{ 
+        //     return _context.Movies.FirstOrDefault(p=> p.Title == name);
+        //}
+        public Admin? GetByName(string name)
+        {
+            return _context.Admins.FirstOrDefault(p=> p.Name == name);
         }
 
         //ABM DE MOVIE QUE HICIMOS PARA VER EL CAMINO

@@ -34,13 +34,18 @@ namespace Infrastructure.Repositories
 
         //Movie
 
-        public ICollection<Movie> GetMovies() 
+        //public ICollection<Movie> GetMovies() 
+        //{
+        //    return _context.Movies.ToList();
+        //}
+        //public Movie? GetById(int id) 
+        //{
+        //    return _context.Movies.FirstOrDefault(u => u.Id == id);
+        //}
+        public Client? GetByName(string name) 
         {
-            return _context.Movies.ToList();
+            return _context.Clients.FirstOrDefault(p => p.Name == name);
         }
-        public Movie? GetById(int id) 
-        {
-            return _context.Movies.FirstOrDefault(u => u.Id == id);
-        }
+
     }
 }

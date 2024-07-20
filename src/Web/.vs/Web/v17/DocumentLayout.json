@@ -1,13 +1,19 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\berto\\OneDrive\\Desktop\\CinemaTPI-P3\\src\\Web\\",
+  "WorkspaceRootPath": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C7FD817-77A9-492E-A9F0-AA5C49964E45}|Web.csproj|c:\\users\\berto\\onedrive\\desktop\\cinematpi-p3\\src\\web\\controllers\\autheticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C7FD817-77A9-492E-A9F0-AA5C49964E45}|Web.csproj|solutionrelative:controllers\\autheticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C7FD817-77A9-492E-A9F0-AA5C49964E45}|Web.csproj|c:\\users\\fliac\\onedrive\\escritorio\\cinematpi\\src\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C7FD817-77A9-492E-A9F0-AA5C49964E45}|Web.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFC379C9-9471-4A14-B90F-AB8C431E7AF8}|..\\Application\\Application.csproj|c:\\users\\berto\\onedrive\\desktop\\cinematpi-p3\\src\\application\\models\\authenticationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23C1CBAB-53A5-4752-AAEB-D4CBCBDA04DE}|..\\Domain\\Domain.csproj|c:\\users\\fliac\\onedrive\\escritorio\\cinematpi\\src\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2E9567-2F9F-45FF-82A6-FD9B247BF21B}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\fliac\\onedrive\\escritorio\\cinematpi\\src\\infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23C1CBAB-53A5-4752-AAEB-D4CBCBDA04DE}|..\\Domain\\Domain.csproj|c:\\users\\fliac\\onedrive\\escritorio\\cinematpi\\src\\domain\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,7 +23,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -25,33 +31,62 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AutheticationController.cs",
-              "DocumentMoniker": "C:\\Users\\berto\\OneDrive\\Desktop\\CinemaTPI-P3\\src\\Web\\Controllers\\AutheticationController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AutheticationController.cs",
-              "ToolTip": "C:\\Users\\berto\\OneDrive\\Desktop\\CinemaTPI-P3\\src\\Web\\Controllers\\AutheticationController.cs",
-              "RelativeToolTip": "Controllers\\AutheticationController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "DocumentIndex": 3,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Domain\\Entities\\Movie.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Movie.cs",
+              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Domain\\Entities\\Movie.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\Movie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T19:56:38.186Z",
+              "WhenOpened": "2024-07-20T03:30:13.957Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AuthenticationRequest.cs",
-              "DocumentMoniker": "C:\\Users\\berto\\OneDrive\\Desktop\\CinemaTPI-P3\\src\\Application\\Models\\AuthenticationRequest.cs",
-              "RelativeDocumentMoniker": "..\\Application\\Models\\AuthenticationRequest.cs",
-              "ToolTip": "C:\\Users\\berto\\OneDrive\\Desktop\\CinemaTPI-P3\\src\\Application\\Models\\AuthenticationRequest.cs",
-              "RelativeToolTip": "..\\Application\\Models\\AuthenticationRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Domain\\Entities\\User.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\User.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T19:55:59.067Z",
+              "WhenOpened": "2024-07-20T03:19:22.039Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Web\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Web\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T20:16:42.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAADEAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T04:38:10.922Z"
             }
           ]
         }

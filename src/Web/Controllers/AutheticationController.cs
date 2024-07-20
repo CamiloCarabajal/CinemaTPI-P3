@@ -1,4 +1,4 @@
-﻿using Application.Models;
+﻿using Application.Models.Requests;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

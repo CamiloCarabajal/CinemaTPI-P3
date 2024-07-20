@@ -9,6 +9,6 @@ namespace Domain.Entities
     public class Client : User
     {
         // public ICollection<Movie> Movies { get; set; } = new List<Movie>(); 
-        public ICollection<Ticket> Ticket { get; set; } = new List<Ticket>();
+        public ICollection<Ticket> Tickets { get; set; } = new List<Ticket>();
     }
 }
