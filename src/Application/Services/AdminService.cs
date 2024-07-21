@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Application.Services
 {
-    public class AdminService
+    public class AdminService : IAdminService
     {
         private readonly IAdminRepository _adminRepository;
         public AdminService(IAdminRepository adminRepository)

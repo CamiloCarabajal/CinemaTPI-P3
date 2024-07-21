@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Web.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class ClientController : ControllerBase
     {
@@ -22,12 +22,12 @@ namespace Web.Controllers
         {
             return Ok(_clientService.GetAll());
         }
-        [HttpGet]
+        [HttpGet("{id}")]
         public ActionResult<Client> GetById([FromRoute]int id) 
         {
             return Ok(_clientService.GetById(id));
         }
-        [HttpGet]
+        [HttpGet("{name}")]
         public ActionResult<Client?> GetByName([FromRoute] string name) 
         {
             return _clientService.GetByName(name);

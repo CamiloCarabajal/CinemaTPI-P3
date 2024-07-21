@@ -53,18 +53,29 @@ namespace Infrastructure.Data
                    UserType = "Client"
                });
 
-            //modelBuilder.Entity<Movie>().HasData(
-            //  new Movie
-            //  {
-            //      Title = "La zona de interés",
-            //      AuthorMovie = "Jonathan Glazer ",
-            //      Id = 3,
-            //      CreationUser = "Ivo",
-                  
-            //  });
+            modelBuilder.Entity<Movie>().HasData(
+              new Movie
+              {
+                  Title = "La zona de interés",
+                  AuthorMovie = "Jonathan Glazer ",
+                  Id = 3
+                  //CreationUser = "Ivo",
+                  //AdminId= 1
+
+              });
+            modelBuilder.Entity<Movie>().HasData(
+         new Movie
+         {
+             Title = "Sociedad de la nieve",
+             AuthorMovie = "Uruguayo ",
+             Id = 4
+             //CreationUser = "Ivo",
+             //AdminId= 1
+
+         });
 
             // Relacion entre cliejte y ticket
-           
+
             modelBuilder.Entity<Client>()
                .HasMany(c => c.Tickets)
                .WithOne(o => o.ClientBuyer)
@@ -80,10 +91,10 @@ namespace Infrastructure.Data
                 .HasForeignKey(o => o.MovieId);
 
            
-            modelBuilder.Entity<Movie>()
-                .HasOne(p => p.Admin)
-                .WithMany(u => u.Movies)
-                .HasForeignKey(o => o.AdminId);
+            //modelBuilder.Entity<Movie>()
+            //    .HasOne(p => p.Admin)
+            //    .WithMany(u => u.Movies)
+            //    .HasForeignKey(o => o.AdminId);
             
         }
     }

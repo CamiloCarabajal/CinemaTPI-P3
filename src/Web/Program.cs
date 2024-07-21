@@ -1,4 +1,8 @@
+using Application.Interfaces;
+using Application.Services;
+using Domain.Interfaces;
 using Infrastructure.Data;
+using Infrastructure.Repositories;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 
@@ -13,9 +17,6 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//string connection = builder.Configuration["ConnectionStrings:CinemaTPIDBConnectionString"]!;
-
-//builder.Services.AddDbContext<ApplicationDbContext>(dbContextOptions => dbContextOptions.UseSqlite(connection));
 
 // CONFIGURACIOON DEL CONTEXT DE CONSULTA ALUMNO
 string connectionString = builder.Configuration["ConnectionStrings:CinemaTPIDBConnectionString"]!;
@@ -34,6 +35,18 @@ using (var command = connection.CreateCommand())
 builder.Services.AddDbContext<ApplicationDbContext>(dbContextOptions => dbContextOptions.UseSqlite(connection, options =>
         options.MigrationsAssembly("Infrastructure")));
 
+#region Services
+builder.Services.AddScoped<IAdminService, AdminService>();
+builder.Services.AddScoped<IClientService, ClientService>();
+builder.Services.AddScoped<IMovieService, MovieService>();
+#endregion
+
+
+#region Repository
+builder.Services.AddScoped<IAdminRepository, AdminRepository>();
+builder.Services.AddScoped<IClientRepository, ClientRepository>();
+builder.Services.AddScoped<IMovieRepository, MovieRepository>();
+#endregion
 
 var app = builder.Build();
 

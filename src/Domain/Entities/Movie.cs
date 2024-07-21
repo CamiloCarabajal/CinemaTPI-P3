@@ -12,9 +12,9 @@ namespace Domain.Entities
         public string Title { get; set; }
         public string AuthorMovie { get; set; }
         public ICollection<Ticket> Tickets { get; set; } = new List<Ticket>(); //Preguntar por que solo 1 ticket?
-        public Admin Admin { get; set; } 
+      //  public Admin Admin { get; set; } 
 
-        public string CreationUser { get; set; } // Guardamos el nom del adm "en el constructor" . Esto deja en claro quien entro ultimo e hizo la modificacion de movie (Todavia no sabemos si queremos esto)
-        public int AdminId { get; set; } // Clave foranea con admin
+        //public string CreationUser { get; set; } // Guardamos el nom del adm "en el constructor" . Esto deja en claro quien entro ultimo e hizo la modificacion de movie (Todavia no sabemos si queremos esto)
+      // public int AdminId { get; set; } // Clave foranea con admin
     }
 }

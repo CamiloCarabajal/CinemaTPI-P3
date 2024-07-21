@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Web.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class AdminController : ControllerBase
     {
@@ -34,7 +34,8 @@ namespace Web.Controllers
         [HttpGet("{id}")]
         public ActionResult GetById([FromRoute] int id)
         {
-            return Ok(_admin.GetById(id));
+           var admin= _admin.GetById(id);
+            return Ok(admin);
         }
 
         [HttpGet("{name}")]
