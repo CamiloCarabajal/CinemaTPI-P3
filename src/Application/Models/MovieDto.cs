@@ -35,6 +35,16 @@ namespace Application.Models
             };
             return movie;
         }
+
+        public static Movie ToEntityUpdate(MovieUpdateRequest movieDto)
+        {
+            var movie = new Movie()
+            {
+                Title = movieDto.Title,
+                AuthorMovie = movieDto.AuthorMovie,
+            };
+            return movie;
+        }
         //Aca deberia ir lo mismo pero para un GetAll por ej
     }
 }
