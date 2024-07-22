@@ -73,7 +73,23 @@ namespace Infrastructure.Data
              //AdminId= 1
 
          });
+            modelBuilder.Entity<Ticket>().HasData(
+            new Ticket
+            {
+                Id = 1,
+                MovieId = 7,
+                ClientId = 2,
+                ClientName = "Camilo",
+            });
 
+            modelBuilder.Entity<Ticket>().HasData(
+           new Ticket
+           {
+               Id = 2,
+               MovieId = 4,
+               ClientId = 4,
+               ClientName = "Fatima",
+           });
             // Relacion entre cliejte y ticket
 
             modelBuilder.Entity<Client>()

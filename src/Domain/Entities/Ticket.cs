@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,10 +10,12 @@ namespace Domain.Entities
 {
     public class Ticket
     {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-      //  public ICollection<Movie> Movies { get; set; } // Lista de Movies para Client
-        public Movie MovieSelected { get; set; } // Relacion con Movie
-        public string ClientName { get; set; }
+        //  public ICollection<Movie> Movies { get; set; } // Lista de Movies para Client
+        // public Movie MovieSelected { get; set; } // Relacion con Movie
+        public string? ClientName { get; set; }
         public Client ClientBuyer { get; set; } //Relacion con Client
         public int ClientId { get; set; } //Clave Foranea de relacion con client
 

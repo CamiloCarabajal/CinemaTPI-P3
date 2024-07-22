@@ -71,18 +71,29 @@ namespace Infrastructure.Migrations
                     b.Property<int>("MovieId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("MovieSelectedId")
-                        .HasColumnType("INTEGER");
-
                     b.HasKey("Id");
 
                     b.HasIndex("ClientId");
 
                     b.HasIndex("MovieId");
 
-                    b.HasIndex("MovieSelectedId");
-
                     b.ToTable("Tickets");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            ClientId = 2,
+                            ClientName = "Camilo",
+                            MovieId = 7
+                        },
+                        new
+                        {
+                            Id = 2,
+                            ClientId = 4,
+                            ClientName = "Fatima",
+                            MovieId = 4
+                        });
                 });
 
             modelBuilder.Entity("Domain.Entities.User", b =>
@@ -172,17 +183,9 @@ namespace Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Domain.Entities.Movie", "MovieSelected")
-                        .WithMany()
-                        .HasForeignKey("MovieSelectedId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("ClientBuyer");
 
                     b.Navigation("Movie");
-
-                    b.Navigation("MovieSelected");
                 });
 
             modelBuilder.Entity("Domain.Entities.Movie", b =>
