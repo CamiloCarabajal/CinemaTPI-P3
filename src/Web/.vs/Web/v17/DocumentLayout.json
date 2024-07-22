@@ -3,29 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C7FD817-77A9-492E-A9F0-AA5C49964E45}|Web.csproj|c:\\users\\fliac\\onedrive\\escritorio\\cinematpi\\src\\web\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C7FD817-77A9-492E-A9F0-AA5C49964E45}|Web.csproj|solutionrelative:controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C7FD817-77A9-492E-A9F0-AA5C49964E45}|Web.csproj|c:\\users\\fliac\\onedrive\\escritorio\\cinematpi\\src\\web\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C7FD817-77A9-492E-A9F0-AA5C49964E45}|Web.csproj|solutionrelative:controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C7FD817-77A9-492E-A9F0-AA5C49964E45}|Web.csproj|c:\\users\\fliac\\onedrive\\escritorio\\cinematpi\\src\\web\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C7FD817-77A9-492E-A9F0-AA5C49964E45}|Web.csproj|solutionrelative:controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFC379C9-9471-4A14-B90F-AB8C431E7AF8}|..\\Application\\Application.csproj|c:\\users\\fliac\\onedrive\\escritorio\\cinematpi\\src\\application\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFC379C9-9471-4A14-B90F-AB8C431E7AF8}|..\\Application\\Application.csproj|c:\\users\\fliac\\onedrive\\escritorio\\cinematpi\\src\\application\\interfaces\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C7FD817-77A9-492E-A9F0-AA5C49964E45}|Web.csproj|c:\\users\\fliac\\onedrive\\escritorio\\cinematpi\\src\\web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C7FD817-77A9-492E-A9F0-AA5C49964E45}|Web.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B2E9567-2F9F-45FF-82A6-FD9B247BF21B}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\fliac\\onedrive\\escritorio\\cinematpi\\src\\infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFC379C9-9471-4A14-B90F-AB8C431E7AF8}|..\\Application\\Application.csproj|c:\\users\\fliac\\onedrive\\escritorio\\cinematpi\\src\\application\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C7FD817-77A9-492E-A9F0-AA5C49964E45}|Web.csproj|c:\\users\\fliac\\onedrive\\escritorio\\cinematpi\\src\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C7FD817-77A9-492E-A9F0-AA5C49964E45}|Web.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFC379C9-9471-4A14-B90F-AB8C431E7AF8}|..\\Application\\Application.csproj|c:\\users\\fliac\\onedrive\\escritorio\\cinematpi\\src\\application\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BFC379C9-9471-4A14-B90F-AB8C431E7AF8}|..\\Application\\Application.csproj|c:\\users\\fliac\\onedrive\\escritorio\\cinematpi\\src\\application\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -38,7 +27,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -53,105 +42,73 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ClientController.cs",
-              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Web\\Controllers\\ClientController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ClientController.cs",
-              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Web\\Controllers\\ClientController.cs",
-              "RelativeToolTip": "Controllers\\ClientController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwAkAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T16:36:18.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MovieController.cs",
-              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Web\\Controllers\\MovieController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MovieController.cs",
-              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Web\\Controllers\\MovieController.cs",
-              "RelativeToolTip": "Controllers\\MovieController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T16:14:46.449Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ITicketService.cs",
+              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Application\\Interfaces\\ITicketService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Interfaces\\ITicketService.cs",
+              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Application\\Interfaces\\ITicketService.cs",
+              "RelativeToolTip": "..\\Application\\Interfaces\\ITicketService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T01:17:15.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Web\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
               "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Web\\Controllers\\AdminController.cs",
               "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T16:06:19.62Z"
+              "WhenOpened": "2024-07-22T01:16:37.596Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MovieService.cs",
-              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Application\\Services\\MovieService.cs",
-              "RelativeDocumentMoniker": "..\\Application\\Services\\MovieService.cs",
-              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Application\\Services\\MovieService.cs",
-              "RelativeToolTip": "..\\Application\\Services\\MovieService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T16:03:56.941Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ClientService.cs",
-              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Application\\Services\\ClientService.cs",
-              "RelativeDocumentMoniker": "..\\Application\\Services\\ClientService.cs",
-              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Application\\Services\\ClientService.cs",
-              "RelativeToolTip": "..\\Application\\Services\\ClientService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T16:03:23.226Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "AdminService.cs",
               "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Application\\Services\\AdminService.cs",
               "RelativeDocumentMoniker": "..\\Application\\Services\\AdminService.cs",
               "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Application\\Services\\AdminService.cs",
               "RelativeToolTip": "..\\Application\\Services\\AdminService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAtAAAA",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T16:01:22.758Z"
+              "WhenOpened": "2024-07-22T01:16:30.405Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Web\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Web\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAArAAAA",
+              "DocumentIndex": 1,
+              "Title": "TicketService.cs",
+              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Application\\Services\\TicketService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\TicketService.cs",
+              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Application\\Services\\TicketService.cs",
+              "RelativeToolTip": "..\\Application\\Services\\TicketService.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAkwE0AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T15:47:08.636Z"
+              "WhenOpened": "2024-07-22T01:14:37.824Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "..\\Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "..\\Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "TicketController.cs",
+              "DocumentMoniker": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Web\\Controllers\\TicketController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TicketController.cs",
+              "ToolTip": "C:\\Users\\fliac\\OneDrive\\Escritorio\\CinemaTPI\\src\\Web\\Controllers\\TicketController.cs",
+              "RelativeToolTip": "Controllers\\TicketController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T16:29:15.9Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2024-07-22T00:27:35.762Z",
+              "EditorCaption": ""
             }
           ]
         }

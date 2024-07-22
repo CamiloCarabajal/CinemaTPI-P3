@@ -39,6 +39,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(dbContextOptions => dbContex
 builder.Services.AddScoped<IAdminService, AdminService>();
 builder.Services.AddScoped<IClientService, ClientService>();
 builder.Services.AddScoped<IMovieService, MovieService>();
+builder.Services.AddScoped<ITicketService, TicketService>();
 #endregion
 
 
@@ -46,6 +47,7 @@ builder.Services.AddScoped<IMovieService, MovieService>();
 builder.Services.AddScoped<IAdminRepository, AdminRepository>();
 builder.Services.AddScoped<IClientRepository, ClientRepository>();
 builder.Services.AddScoped<IMovieRepository, MovieRepository>();
+builder.Services.AddScoped<ITicketRepository, TicketRepository>();
 #endregion
 
 var app = builder.Build();
