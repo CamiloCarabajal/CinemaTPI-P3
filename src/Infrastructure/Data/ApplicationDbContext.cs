@@ -18,6 +18,7 @@ namespace Infrastructure.Data
        public DbSet<Movie> Movies { get; set; }
        public DbSet<Ticket> Tickets { get; set; }
        public DbSet<Admin> Admins { get; set; }
+        public DbSet<SuperAdmin> SuperAdmins { get; set; }
 
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options, bool isTestingEnvironment = false) : base(options)
@@ -30,7 +31,8 @@ namespace Infrastructure.Data
             modelBuilder.Entity<User>()
                .HasDiscriminator<string>("UserType")
                .HasValue<Client>("Client")
-               .HasValue<Admin>("Admin");
+               .HasValue<Admin>("Admin")
+               .HasValue<SuperAdmin>("SuperAdmin");
 
             modelBuilder.Entity<Admin>().HasData(
                new Admin
@@ -53,12 +55,23 @@ namespace Infrastructure.Data
                    UserType = "Client"
                });
 
+            modelBuilder.Entity<SuperAdmin>().HasData(
+           new SuperAdmin
+           {
+               Name = "SuperAdmin",
+               Email = "SuperAdmin@gmail.com",
+               Password = "123",
+               Id = 5,
+               UserType = "SuperAdmin"
+           });
+
             modelBuilder.Entity<Movie>().HasData(
               new Movie
               {
                   Title = "La zona de interés",
                   AuthorMovie = "Jonathan Glazer ",
-                  Id = 3
+                  Id = 1,
+                  SeatCount = 5
                   //CreationUser = "Ivo",
                   //AdminId= 1
 
@@ -68,7 +81,8 @@ namespace Infrastructure.Data
          {
              Title = "Sociedad de la nieve",
              AuthorMovie = "Uruguayo ",
-             Id = 4
+             Id = 2,
+             SeatCount = 3
              //CreationUser = "Ivo",
              //AdminId= 1
 
@@ -77,7 +91,7 @@ namespace Infrastructure.Data
             new Ticket
             {
                 Id = 1,
-                MovieId = 7,
+                MovieId = 2,
                 ClientId = 2,
                 ClientName = "Camilo",
             });
@@ -86,7 +100,7 @@ namespace Infrastructure.Data
            new Ticket
            {
                Id = 2,
-               MovieId = 4,
+               MovieId = 2,
                ClientId = 4,
                ClientName = "Fatima",
            });
