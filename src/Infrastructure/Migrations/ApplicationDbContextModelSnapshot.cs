@@ -30,6 +30,9 @@ namespace Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<int>("SeatCount")
+                        .HasColumnType("INTEGER");
+
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("TEXT");
@@ -43,14 +46,16 @@ namespace Infrastructure.Migrations
                     b.HasData(
                         new
                         {
-                            Id = 3,
+                            Id = 1,
                             AuthorMovie = "Jonathan Glazer ",
+                            SeatCount = 5,
                             Title = "La zona de interés"
                         },
                         new
                         {
-                            Id = 4,
+                            Id = 2,
                             AuthorMovie = "Uruguayo ",
+                            SeatCount = 3,
                             Title = "Sociedad de la nieve"
                         });
                 });
@@ -65,7 +70,6 @@ namespace Infrastructure.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("ClientName")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<int>("MovieId")
@@ -85,14 +89,14 @@ namespace Infrastructure.Migrations
                             Id = 1,
                             ClientId = 2,
                             ClientName = "Camilo",
-                            MovieId = 7
+                            MovieId = 2
                         },
                         new
                         {
                             Id = 2,
                             ClientId = 4,
                             ClientName = "Fatima",
-                            MovieId = 4
+                            MovieId = 2
                         });
                 });
 
@@ -116,7 +120,7 @@ namespace Infrastructure.Migrations
 
                     b.Property<string>("UserType")
                         .IsRequired()
-                        .HasMaxLength(8)
+                        .HasMaxLength(13)
                         .HasColumnType("nvarchar(20)");
 
                     b.HasKey("Id");
@@ -159,6 +163,23 @@ namespace Infrastructure.Migrations
                             Name = "Camilo",
                             Password = "123",
                             UserType = "Client"
+                        });
+                });
+
+            modelBuilder.Entity("Domain.Entities.SuperAdmin", b =>
+                {
+                    b.HasBaseType("Domain.Entities.User");
+
+                    b.HasDiscriminator().HasValue("SuperAdmin");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 5,
+                            Email = "SuperAdmin@gmail.com",
+                            Name = "SuperAdmin",
+                            Password = "123",
+                            UserType = "SuperAdmin"
                         });
                 });
 

@@ -15,5 +15,6 @@ namespace Application.Interfaces
         List<Ticket> GetAll();
         TicketDto CreateTicket(TicketAddRequest request);
         void DeleteTicket(int id);
+        int GetAvailableSeats(int movieId);
     }
 }

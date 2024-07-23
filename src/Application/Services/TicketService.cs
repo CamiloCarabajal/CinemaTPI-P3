@@ -14,9 +14,11 @@ namespace Application.Services
     public  class TicketService : ITicketService
     {
         private readonly ITicketRepository _ticketRepository;
-        public TicketService(ITicketRepository ticketRepository)
+        private readonly IMovieRepository _movieRepository;
+        public TicketService(ITicketRepository ticketRepository, IMovieRepository movieRepository)
         {
             _ticketRepository = ticketRepository;
+            _movieRepository = movieRepository;
         }
 
         public List<TicketDto> GetTicketByClientId(int clientId) 
@@ -53,7 +55,9 @@ namespace Application.Services
                 Movie = movie,
                 ClientName= client.Name,
             };
-
+            //Logica de asientos
+            movie.SeatCount--;
+            _movieRepository.Update(movie);
             _ticketRepository.Add(ticket);
 
             return new TicketDto
@@ -68,14 +72,32 @@ namespace Application.Services
         public void DeleteTicket(int id) 
         {
             var ticketToDelete = _ticketRepository.Get(id);
-            if (ticketToDelete != null)
+            if (ticketToDelete is not null)
             {
-                _ticketRepository.Delete(ticketToDelete);
+                var movieId = ticketToDelete.MovieId;
+                var findMovie = _movieRepository.Get(movieId);
+                if (findMovie is not null)
+                {
+                    findMovie.SeatCount++;
+                    _movieRepository.Update(findMovie);
+                    _ticketRepository.Delete(ticketToDelete);
+                }
+                
             }
             else 
             {
                 throw new Exception("Ticket no encontrado");
             }
+        }
+
+        public int GetAvailableSeats(int movieId)
+        {
+            var movie = _movieRepository.Get(movieId);
+            if (movie == null)
+            {
+                throw new Exception("Película no encontrada.");
+            }
+            return movie.SeatCount;
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    internal class SuperAdmin
+    public class SuperAdmin : User
     {
         //Tomamos el consejo del profe y esto lo vemos mas adelante...
     }
